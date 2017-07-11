@@ -1,0 +1,21 @@
+{
+    "name": "aerozoll/yii2-blog",
+    "description": "Blog mogule for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Ryzhkov",
+            "email": "snryzhkov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aerozoll\\blog\\": ""
+        }
+    }
+}
