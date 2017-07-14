@@ -11,9 +11,7 @@ class Blog extends \yii\base\Module
      * @inheritdoc
      */
     public $controllerNamespace = 'aerozoll\blog\controllers';
-    /**
-     * @var string name default module
-     */
+    
     public $defaultRoute = 'blog';
 
     /**
